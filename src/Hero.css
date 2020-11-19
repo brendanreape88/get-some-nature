@@ -1,0 +1,58 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  background-image: url(./images/hero2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__name {
+  padding: 30px;
+  font-size: 10vw;
+}
+
+.hero__tagline {
+  padding: 30px;
+  font-size: 4vw;
+}
+
+.hero__form {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero__select {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hero__button {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 20px;
+  transition-duration: 0.3s;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.hero__button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+
+.hero__search {
+  height: 30px;
+  width: 60%;
+  border-radius: 20px;
+  border: 1px solid black;
+  padding-left: 10px;
+}
